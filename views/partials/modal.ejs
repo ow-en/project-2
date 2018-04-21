@@ -1,0 +1,376 @@
+<div class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+  <div class="modal-card-content">
+  <div class="tile-shine">
+    <div class="modal-card-head">
+      <!--<i class="fa fa-star-o favorite" id="modal-favorite" aria-hidden="true"></i>-->
+      <input class="modal-card-title input riff-title"
+             id="modal-title-input" type="text" placeholder="Riff Name" \>
+      <div class="riff-user modal-riff-user"></div>
+    </div>
+    <section class="modal-card-body">
+      <div class="columns is-mobile">
+
+        <div class="column is-narrow">
+          <div class="table-wrapper">
+            <table class="table is-narrow is-bordered" id="modal-key-table">
+              <thead>
+                <tr>
+                  <th class="modal-key-table-head has-text-centered">
+                    <abbr title="Octave">P8</abbr>
+                  </th>
+                  <th class="modal-key-table-head has-text-centered">
+                    <abbr title="Flat">&#9837;</abbr>
+                  </th>
+                  <th class="modal-key-table-head">Key</th>
+                  <th class="modal-key-table-head has-text-centered">
+                    <abbr title="Sharp">&#9839;</abbr>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+
+                <tr>
+                  <td>
+                    <select class="p8-option" id="C-p8-option">
+                      <option>1</option>
+                      <option>2</option>
+                      <option selected>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                    </select>
+                  </td>
+                  <td>
+                    <label class="checkbox mod-check" id="Cb-checkbox">
+                      <input type="checkbox" id="Cb-check">
+                    </label>
+                  </td>
+                  <td class="has-text-centered step-selector" id="C-step-selector" value="C3">
+                    <b>C</b>
+                  </td>
+                  <td>
+                    <label class="checkbox mod-check" id="Cs-checkbox">
+                      <input type="checkbox" id="Cs-check">
+                    </label>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <select class="p8-option" id="D-p8-option">
+                      <option>1</option>
+                      <option>2</option>
+                      <option selected>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                    </select>
+                  </td>
+                  <td>
+                    <label class="checkbox mod-check" id="Db-checkbox">
+                      <input type="checkbox" id="Db-check">
+                    </label>
+                  </td>
+                  <td class="has-text-centered step-selector" id="D-step-selector" value="D3">
+                    <b>D</b>
+                  </td>
+                  <td>
+                    <label class="checkbox mod-check" id="Ds-checkbox">
+                      <input type="checkbox" id="Ds-check">
+                    </label>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <select class="p8-option" id="E-p8-option">
+                      <option>1</option>
+                      <option>2</option>
+                      <option selected>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                    </select>
+                  </td>
+                  <td>
+                    <label class="checkbox mod-check" id="Eb-checkbox">
+                      <input type="checkbox" id="Eb-check">
+                    </label>
+                  </td>
+                  <td class="has-text-centered step-selector" id="E-step-selector" value="E3">
+                    <b>E</b>
+                  </td>
+                  <td>
+                    <label class="checkbox mod-check" id="Es-checkbox">
+                      <input type="checkbox" id="Es-check">
+                    </label>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <select class="p8-option" id="F-p8-option">
+                      <option>1</option>
+                      <option>2</option>
+                      <option selected>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                    </select>
+                  </td>
+                  <td>
+                    <label class="checkbox mod-check" id="Fb-checkbox">
+                      <input type="checkbox" id="Fb-check">
+                    </label>
+                  </td>
+                  <td class="has-text-centered step-selector" id="F-step-selector" value="F3">
+                    <b>F</b>
+                  </td>
+                  <td>
+                    <label class="checkbox mod-check" id="Fs-checkbox">
+                      <input type="checkbox" id="Fs-check">
+                    </label>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <select class="p8-option" id="G-p8-option">
+                      <option>1</option>
+                      <option>2</option>
+                      <option selected>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                    </select>
+                  </td>
+                  <td>
+                    <label class="checkbox mod-check" id="Gb-checkbox">
+                      <input type="checkbox" id="Gb-check">
+                    </label>
+                  </td>
+                  <td class="has-text-centered step-selector" id="G-step-selector" value="G3">
+                    <b>G</b>
+                  </td>
+                  <td>
+                    <label class="checkbox mod-check" id="Gs-checkbox">
+                      <input type="checkbox" id="Gs-check">
+                    </label>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <select class="p8-option" id="A-p8-option">
+                      <option>1</option>
+                      <option>2</option>
+                      <option selected>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                    </select>
+                  </td>
+                  <td>
+                    <label class="checkbox mod-check" id="Ab-checkbox">
+                      <input type="checkbox" id="Ab-check">
+                    </label>
+                  </td>
+                  <td class="has-text-centered step-selector" id="A-step-selector" value="A3">
+                    <b>A</b>
+                  </td>
+                  <td>
+                    <label class="checkbox mod-check" id="As-checkbox">
+                      <input type="checkbox" id="As-check">
+                    </label>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <select class="p8-option" id="B-p8-option">
+                      <option>1</option>
+                      <option>2</option>
+                      <option selected>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                    </select>
+                  </td>
+                  <td>
+                    <label class="checkbox mod-check" id="Bb-checkbox">
+                      <input type="checkbox" id="Bb-check">
+                    </label>
+                  </td>
+                  <td class="has-text-centered step-selector" id="B-step-selector" value="B3">
+                    <b>B</b>
+                  </td>
+                  <td>
+                    <label class="checkbox mod-check" id="Bs-checkbox">
+                      <input type="checkbox" id="Bs-check">
+                    </label>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="columns is-gapless is-mobile percussion-btn-div">
+            <div class="column has-text-centered">
+              <button id="kick_button" class="button percussion-btn">
+                <img src="/assets/img/bass.png" class="percussion-icon">
+              </button>
+            </div>
+            <div class="column has-text-centered">
+              <button id="snare_button" class="button percussion-btn">
+                <img src="/assets/img/snare.png" class="percussion-icon">
+              </button>
+            </div>
+            <div class="column has-text-centered">
+              <button id="cymbal_button" class="button percussion-btn">
+                <img src="/assets/img/cymbals.png" class="percussion-icon">
+              </button>
+            </div>
+          </div>
+
+          <div class="columns is-gapless is-mobile percussion-btn-div is-flex">
+            <div id="beat-slide-container">
+              <input type="range" min="1" max="4" step="1" value="3" 
+                     class="slider modal-beat-sel" id="beat-sel">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="column" id="step-grid">
+
+          <div class="columns is-flex">
+            <div class="column is-3">
+              <div class="modal-step-wrapper">
+                <div class="step modal-step unclicked" data-id="0" id="modal-step-0">
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="modal-step-wrapper">
+                <div class="step modal-step unclicked" data-id="1" id="modal-step-1">
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="modal-step-wrapper">
+                <div class="step modal-step unclicked" data-id="2" id="modal-step-2">
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="modal-step-wrapper">
+                <div class="step modal-step unclicked" data-id="3" id="modal-step-3">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-flex">
+            <div class="column is-3">
+              <div class="modal-step-wrapper">
+                <div class="step modal-step unclicked" data-id="4" id="modal-step-4">
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="modal-step-wrapper">
+                <div class="step modal-step unclicked" data-id="5" id="modal-step-5">
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="modal-step-wrapper">
+                <div class="step modal-step unclicked" data-id="6" id="modal-step-6">
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="modal-step-wrapper">
+                <div class="step modal-step unclicked" data-id="7" id="modal-step-7">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-flex">
+            <div class="column is-3">
+              <div class="modal-step-wrapper">
+                <div class="step modal-step unclicked" data-id="8" id="modal-step-8">
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="modal-step-wrapper">
+                <div class="step modal-step unclicked" data-id="9" id="modal-step-9">
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="modal-step-wrapper">
+                <div class="step modal-step unclicked" data-id="10" id="modal-step-10">
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="modal-step-wrapper">
+                <div class="step modal-step unclicked" data-id="11" id="modal-step-11">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-flex">
+            <div class="column is-3">
+              <div class="modal-step-wrapper">
+                <div class="step modal-step unclicked" data-id="12" id="modal-step-12">
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="modal-step-wrapper">
+                <div class="step modal-step unclicked" data-id="13" id="modal-step-13">
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="modal-step-wrapper">
+                <div class="step modal-step unclicked" data-id="14" id="modal-step-14">
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="modal-step-wrapper">
+                <div class="step modal-step unclicked" data-id="15" id="modal-step-15">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="columns control-row is-flex">
+            <div class="tile-controller">
+              <input class="controller-btn modal-radio" type="radio" 
+                     value="play" name="modal-radio" data-icon="►" id="modal-radio-play">
+              <input class="controller-btn modal-radio" type="radio" 
+                     value="stop" name="modal-radio" data-icon="◼" id="modal-radio-stop">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="modal-card-foot">
+      <button class="button is-success close-modal" id="publish-riff">Publish</button>
+      <button class="button is-success close-modal">Cancel</button>
+      <div id="delete" class="is-flex modal-footer-icons">
+        <i class="fa fa-trash-o" aria-hidden="true"></i>
+      </div>
+    </footer>
+  </div>
+  </div>
+  </div>
+</div>

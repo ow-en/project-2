@@ -1,0 +1,54 @@
+.hero-body {
+  padding: 0px 24px 12px 24px;
+}
+.hero.is-success {
+  /*background: #F2F6FA;*/
+}
+.hero, .hero.is-success {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.box {
+  margin-top: 5rem;
+}
+.avatar {
+  margin-top: -70px;
+  padding-bottom: 20px;
+}
+
+#avatar-div {
+  transition: box-shadow .1s ease;
+}
+
+h3.title {
+  color: #333333 !important;
+}
+
+.color-icon {
+  clip-path: circle(60px at center);
+}
+
+.avatar div {
+  border-radius: 50%;
+  margin: auto;
+  width: 125px;
+  height: 125px;
+  padding: 2px;
+  background: lightgrey;
+  -webkit-box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1); 
+}
+p.subtitle {
+  padding-top: 1rem;
+}
+
+#submit-button {
+  width: 100%;
+  font-family: inherit;
+  background-color: #333333;
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
